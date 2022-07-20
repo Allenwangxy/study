@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\dm\Project5\Project5\</FILEPATH>
+      <FILENAME>5.c</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6328</DEFECTCODE>
+    <DESCRIPTION>大小不匹配: 已将“unsigned __int64”作为 _Param_(2) 传递，但需要使用“int”来调用“printf”。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\dm\Project5\Project5\</FILEPATH>
+      <FILENAME>5.c</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6328</DEFECTCODE>
+    <DESCRIPTION>大小不匹配: 已将“unsigned __int64”作为 _Param_(2) 传递，但需要使用“int”来调用“printf”。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

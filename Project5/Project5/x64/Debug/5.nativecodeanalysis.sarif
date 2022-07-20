@@ -1,0 +1,93 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "大小不匹配: 已将“unsigned __int64”作为 _Param_(2) 传递，但需要使用“int”来调用“printf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/dm/Project5/Project5/5.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 2,
+                  "endLine": 10,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "大小不匹配: 已将“unsigned __int64”作为 _Param_(2) 传递，但需要使用“int”来调用“printf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/dm/Project5/Project5/5.c"
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 2,
+                  "endLine": 11,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/dm/Project5/Project5/5.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0e20c6838e17a1303e3d3ddc17da149ee8015f3786190ee144fbfc6cc88b02a7"
+          }
+        }
+      ]
+    }
+  ]
+}
